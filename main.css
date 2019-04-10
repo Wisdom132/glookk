@@ -1,0 +1,44 @@
+#body {
+   background:linear-gradient(rgba(0, 16, 93, 0.911), rgba(2, 6, 27, 0.911)),url('cellphone-device-electronics-870903.jpg') no-repeat;
+    height:660px !important;
+    background-size:cover;
+    background-position: center center;
+    
+}
+.download {
+    border:1px solid white !important;
+}
+* {
+    font-family: 'Open Sans', sans-serif;
+}
+.text {
+    font-size:20px;
+    /* text-align: center; */
+}
+.container {
+    width:90% !important;
+}
+.app-store {
+    display: flex;
+}
+@media(max-width:800px) {
+    #body {
+   background:linear-gradient(rgba(0, 16, 93, 0.911), rgba(2, 6, 27, 0.911)),url('cellphone-device-electronics-870903.jpg') no-repeat;
+    height:auto !important;
+    background-size:cover;
+    background-position: center center;
+}
+.text {
+    font-size:18px;
+    text-align: justify
+}
+.slide {
+    bottom:100px !important;
+}
+.app-store {
+    
+}
+.over-all {
+    margin-top:120px;
+}
+}
